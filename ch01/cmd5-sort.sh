@@ -40,3 +40,7 @@ head -n5 /etc/passwd | cut -d: -f1 | sort > sort/sort8.txt
 # cut delimiter -d, cut field 1 -f1
 # sort ascending order
 cat /etc/passwd | cut -d: -f1 | sort > sort/sort9.txt
+
+# cut delimiter -d, cut field 1 -f1
+# find username "root"
+cut -d: -f1 /etc/passwd | grep -w root
