@@ -22,5 +22,5 @@ cut -c1-3 animals.txt > cut/cut5.txt
 cut -f4 animals.txt > cut/cut6.txt
 
 # cut field 4 -f, author name.
-# cut delimiter -d, cut field 1 -f.
+# cut delimiter -d, cut field 1 -f1.
 cut -f4 animals.txt | cut -d, -f1
