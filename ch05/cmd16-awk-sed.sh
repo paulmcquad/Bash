@@ -26,3 +26,16 @@ animals.txt > sed/sed10.txt
 
 seq 1 100 | awk '{s+=$1} END {print s}'> sed/sed11.txt
 
+echo Efficient Windows | sed "s/Windows/Linux/" > sed/sed12.txt
+
+sed 's/.* //' celebrities.txt > sed/sed13.txt
+
+echo Efficient Stuff | sed "s/stuff/linux/" > sed/sed14.txt
+echo Efficient Stuff | sed "s/stuff/linux/i" >> sed/sed14.txt
+
+
+echo efficient stuff | sed "s/f/F/" > sed/sed15.txt
+echo efficient stuff | sed "s/f/F/g" >> sed/sed15.txt
+
+seq 10 14 | sed 4d > sed/sed16.txt
+seq 101 200 | sed '/[13579]$/d' > sed/sed17.txt
