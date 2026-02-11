@@ -56,15 +56,13 @@ echo "The second best battle is starting"
 echo "You are second beast approches .prepare to battle. pick a number between 0-9 (0/9)"
 
 read tarnished
-
+  
 beast=$(( $RANDOM % 10))
 
 	if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
-
-		echo"Beast VANQUISHED!!"
-	elif [[ $USER == "bernard" ]];then
-
-		echo "Hey,Bernard always wins. You Vanquished beast."
+		echo "Beast VANQUISHED!!"
+	elif [[ $USER == "gamer" ]];then
+		echo "Hey,gamer always wins. You Vanquished beast."
 	else
 		echo "You Died"
 	exit 1
