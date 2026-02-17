@@ -1,3 +1,5 @@
+#! /bin/bash
+
 #We just started a new exclusive restaurant and it only has a capacity to allow 5 customers at a time!
 
 # Challenge 1
